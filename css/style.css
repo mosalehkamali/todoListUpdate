@@ -1,0 +1,53 @@
+#todoList label{
+  width: 80%;
+}
+#todoList li{
+  list-style-type: none;
+  color: rgb(20, 20, 20);
+}
+.uncompleted{
+  color: #afa7a7;
+  text-decoration: line-through;
+}
+#todoList .btn{
+  margin-left: 10px;
+}
+.switch {
+  margin: 10px;
+  width: 60px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(39, 38, 38);
+  position: relative;
+}
+.flicker {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  transition: 0.3s;
+  box-shadow: inset 4px 4px 4px rgb(255, 255, 255),
+    inset -4px -4px 4px rgb(195 193 198 / 90%);
+}
+.dark {
+  background-color: rgb(57, 57, 57);
+  transition: 0.3s;
+}
+.moon {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0 0 rgb(255, 255, 255);
+  position: absolute;
+  top: 3px;
+  left: 30px;
+}
+.dark .flicker {
+  transform: translateX(30px);
+}
+.dark > * {
+  color: rgb(255, 255, 255);
+}

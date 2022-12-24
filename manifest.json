@@ -1,0 +1,52 @@
+{
+
+    "name": "Todo List App",
+    
+    "short_name": "Todo List",
+    
+    "description": "Web consulting, supervision & implementation services in web",
+    
+    "start_url": "./",
+    
+    "display": "standalone",
+    
+    "scope": "./",
+    
+    "dir": "rtl",
+    
+    "lang": "fa-IR",
+    
+    "background_color": " #2e364e",
+    
+    "theme_color": " #000000",
+    
+    "orientation": "any",
+    
+    "icons": [
+        {
+            "src": "image/icon4.png",
+            "type":"image/png",
+            "sizes": "192x192",
+            "purpose": "any"
+        },
+        {
+            "src": "image/icon3.png",
+            "type":"image/png",
+            "sizes": "512x512",
+            "purpose": "any"
+        },
+        {
+            "src":"image/icon2.png",
+            "type":"image/png",
+            "sizes": "96x96",
+            "purpose": "any"
+        },
+        {
+            "src": "image/icon1.png",
+            "type":"image/png",
+            "sizes": "144x144",
+            "purpose": "any"
+        }
+    ]
+    
+    }
